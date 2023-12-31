@@ -127,7 +127,7 @@
   <!-- Display table data. -->
   <table>
     <tr>
-        <th>ID<th>
+        <th>ID</th>
       <th>NAME</th>
       <th>ADDRESS</th>
     </tr>
