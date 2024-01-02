@@ -1,0 +1,18 @@
+version : 0.2
+phases:
+  install :
+    runtime-versions:
+      php: 8.2
+  pre build:
+    commands:
+      - echo ""
+
+  build:
+    commands:
+      - echo "Running the build"
+  post build:
+    commands:
+      - echo "Running the post build"
+artifacts:
+  file:
+    -  "**/*"          
