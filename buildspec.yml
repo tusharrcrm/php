@@ -3,14 +3,14 @@ phases:
   install :
     runtime-versions:
       php: 8.2
-  pre build:
+  pre_build:
     commands:
       - echo ""
 
   build:
     commands:
       - echo "Running the build"
-  post build:
+  post_build:
     commands:
       - echo "Running the post build"
 artifacts:
