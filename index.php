@@ -89,7 +89,7 @@
 </head>
 
 <body>
-  <h1>employee Management System</h1>
+  <h1>student Management System</h1>
   <?php
   $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
 
